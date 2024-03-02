@@ -1,0 +1,15 @@
+.maindiv {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #EED3D9;
+    width: 100%;
+}
+
+.innerdiv {
+    margin: 0.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

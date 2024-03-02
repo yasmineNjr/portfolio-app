@@ -1,0 +1,23 @@
+.main {
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    color: #EED3D9;
+}
+.maindiv {
+    display: flex; 
+    flex-direction: row; 
+    margin: 0; 
+    padding: 0;
+}
+.icon {
+    margin: 2rem;
+}
+
+@media screen and (max-width : 500px) {
+    .icon {
+        margin: 1rem;
+    }
+}
