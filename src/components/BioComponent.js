@@ -17,6 +17,7 @@ const BioComponent = () => {
             height: window.innerHeight
         }
     }
+    
     useEffect(() => {
         const updateDimension = () => {
             setScreenSize(getCurrentDimension().width);
