@@ -23,7 +23,7 @@ const ProjectItem = (props) => {
                                         ))
                                     }
                                 </ul>
-                                {props.project.description} 
+                                <p>{props.project.description}</p> 
                                 {
                                     props.project.url !== '' && 
                                         <p style={{color: '#EED3D9'}}>

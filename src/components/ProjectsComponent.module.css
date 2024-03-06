@@ -14,10 +14,18 @@
 }
 .icon {
     margin: 2rem;
+    border-radius: 14px; 
+}
+.main h1 {
+    font-size: xx-large;
 }
 
 @media screen and (max-width : 500px) {
     .icon {
-        margin: 1rem;
+        margin: 0.5rem;
+        border-radius: 14px; 
+    }
+    .main h1 {
+        font-size: large;
     }
 }

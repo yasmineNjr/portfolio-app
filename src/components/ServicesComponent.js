@@ -1,8 +1,5 @@
 import Card from '../components/layouts/Card';
 import classes from './ServicesComponent.module.css';
-// import { FaReact } from "react-icons/fa";
-// import { TbBrandReactNative } from "react-icons/tb";
-// import { MdOutlineSocialDistance } from "react-icons/md";
 import testImage from '../assests/test.png';
 import mobileImage from '../assests/mobile.png';
 import uiImage from '../assests/ui.png';
@@ -11,7 +8,7 @@ import webImage from '../assests/web.png';
 import CommunicateImage from '../assests/communicate.png';
 
 const ServicesComponent = () => {
-    // style={{position: 'fixed', top: '0', left: '0'}}
+    
     return  (
         <div className={classes.main}>
             <h1 >
