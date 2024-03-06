@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+import { Fragment, useState, useEffect } from 'react';
 import classes from './BioComponent.module.css';
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
@@ -8,6 +8,26 @@ import Footer from './layouts/Footer';
 
 const BioComponent = () => {
 
+    const [screenSize, setScreenSize] = useState(1113);
+
+    function getCurrentDimension(){
+        if (typeof window !== 'undefined')
+        return {
+            width: window.innerWidth,
+            height: window.innerHeight
+        }
+    }
+    useEffect(() => {
+        const updateDimension = () => {
+            setScreenSize(getCurrentDimension().width);
+        }
+        window.addEventListener('resize', updateDimension);
+        
+        return(() => {
+            window.removeEventListener('resize', updateDimension);
+        })
+    }, [screenSize]);
+    
     return <Fragment>
             <section className={classes.summary}>
             <p>
@@ -27,7 +47,7 @@ const BioComponent = () => {
                     <li>
                         <a href='https://telegram.me/rose_an_sy' target='_blank' rel='noreferrer'>
                             <span className={classes.icon}>
-                                <BsTelegram color='white' size='1.6rem' 
+                                <BsTelegram color='white' size={screenSize > 500 ? '1.6rem' : '1.4rem'}
                                             onMouseOver={({target})=>{target.style.color="#8e44ad"; }} 
                                             onMouseOut={({target})=>{target.style.color="#EED3D9"; }}/>
                             </span>
@@ -36,7 +56,7 @@ const BioComponent = () => {
                     <li>
                         <a href='https://wa.me/+963955502266' target='_blank' rel='noreferrer'>
                             <span className={classes.icon}>
-                                <IoLogoWhatsapp color='white' size='1.7rem'
+                                <IoLogoWhatsapp color='white' size={screenSize > 500 ? '1.7rem' : '1.5rem'}
                                             onMouseOver={({target})=>{target.style.color="#8e44ad"; }} 
                                             onMouseOut={({target})=>{target.style.color="#EED3D9"; }}/>
                             </span>
@@ -45,7 +65,7 @@ const BioComponent = () => {
                     <li>
                         <a href='mailto:yasmine.alnajargmail.com' target='_blank' rel='noreferrer'>
                             <span className={classes.icon}>
-                                <IoMdMail   color='white' size='1.7rem' 
+                                <IoMdMail   color='white' size={screenSize > 500 ? '1.7rem' : '1.5rem'}
                                             onMouseOver={({target})=>{target.style.color="#8e44ad"; }} 
                                             onMouseOut={({target})=>{target.style.color="#EED3D9"; }}/>
                             </span>
@@ -54,7 +74,7 @@ const BioComponent = () => {
                     <li>
                         <a href='https://telegram.me/rose_an_sy' target='_blank' rel='noreferrer'>
                             <span className={classes.icon}>
-                                <FaGithub color='white' size='1.7rem'
+                                <FaGithub color='white' size={screenSize > 500 ? '1.7rem' : '1.5rem'}
                                             onMouseOver={({target})=>{target.style.color="#8e44ad"; }} 
                                             onMouseOut={({target})=>{target.style.color="#EED3D9"; }}/>
                             </span>
@@ -63,7 +83,7 @@ const BioComponent = () => {
                     <li>
                         <a href='https://telegram.me/rose_an_sy' target='_blank' rel='noreferrer'>
                             <span className={classes.icon}>
-                                <FaLinkedin color='white' size='1.6rem' 
+                                <FaLinkedin color='white' size={screenSize > 500 ? '1.6rem' : '1.4rem'}
                                             onMouseOver={({target})=>{target.style.color="#8e44ad"; }} 
                                             onMouseOut={({target})=>{target.style.color="#EED3D9"; }}/>
                             </span>

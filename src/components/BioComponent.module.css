@@ -15,10 +15,10 @@
     box-shadow: 0 0 10px #8e44ad;
     /* a55eea */
     animation: summary-appear 1s ease-out forwards;
+    font-size: medium;
   }
-  
   .summary h2 {
-    font-size: 2rem;
+    font-size: x-large;
     margin-top: 0;
     color: #9b59b6;
   }
@@ -94,5 +94,11 @@
       border-radius: 14px;
       padding: 1rem;
       box-shadow: 0 0 10px #8e44ad;
+      font-size: small;
+    }
+    .summary h2 {
+      font-size: large;
+      margin-top: 0;
+      color: #9b59b6;
     }
   }

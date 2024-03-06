@@ -15,7 +15,7 @@ const ServicesComponent = () => {
                 My Services
             </h1>
             <section>
-                <ul>
+                <ul  style={{ marginBottom: '1rem'}}>
                     <li className={classes.lileft}>
                         <Card height='90%'>
                             <div className={classes.maindiv}>
@@ -89,9 +89,9 @@ const ServicesComponent = () => {
                     </li>
                     
                     {/* Test and debug to ensure the reliability and performance of the applications. */}
-                    <li className={classes.liright}>
+                    <li className={classes.liright} >
                         <Card height='90%'>
-                            <div className={classes.maindiv} style={{ marginBottom: '0.5rem'}}>
+                            <div className={classes.maindiv}>
                                 <div className={classes.titlediv}>
                                     {/* <MdOutlineSocialDistance size='1.5rem' style={{marginRight: '0.5rem'}}/> */}
                                     <img src={CommunicateImage} alt="Client Communication" style={{ width: '8rem', height: '8rem'}}/>
