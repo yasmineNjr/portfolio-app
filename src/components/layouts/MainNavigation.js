@@ -13,8 +13,8 @@ function MainNavigation(){
                     <li><Link to='/AboutMe'>About</Link></li>
                     <li><Link to='/Services'>Services</Link></li>
                     <li><Link to='/Projects'>Projects</Link></li>
-                    <li style={{marginRight: '1rem'}}><Link to='/Resume'>Resume</Link></li>
                 </ul>
+                <a href='https://drive.google.com/file/d/1EKCTKPKkuv3QUHVaJ4dJE82HaLN4NGud/view?usp=sharing' target='_blank' rel='noreferrer' style={{margin: '0 0.5rem', marginRight: '1rem'}}>Resume</a>
             </nav>
         </header>
         <div className={classes['header-image']}>
