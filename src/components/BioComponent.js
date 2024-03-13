@@ -48,7 +48,7 @@ const BioComponent = () => {
                     <li>
                         <a href='https://telegram.me/rose_an_sy' target='_blank' rel='noreferrer'>
                             <span className={classes.icon}>
-                                <BsTelegram color='white' size={screenSize > 500 ? '1.6rem' : '1.4rem'}
+                                <BsTelegram color='#EED3D9' size={screenSize > 500 ? '1.6rem' : '1.4rem'}
                                             onMouseOver={({target})=>{target.style.color="#8e44ad"; }} 
                                             onMouseOut={({target})=>{target.style.color="#EED3D9"; }}/>
                             </span>
@@ -57,7 +57,7 @@ const BioComponent = () => {
                     <li>
                         <a href='https://wa.me/+963955502266' target='_blank' rel='noreferrer'>
                             <span className={classes.icon}>
-                                <IoLogoWhatsapp color='white' size={screenSize > 500 ? '1.7rem' : '1.5rem'}
+                                <IoLogoWhatsapp color='#EED3D9' size={screenSize > 500 ? '1.7rem' : '1.5rem'}
                                             onMouseOver={({target})=>{target.style.color="#8e44ad"; }} 
                                             onMouseOut={({target})=>{target.style.color="#EED3D9"; }}/>
                             </span>
@@ -66,7 +66,7 @@ const BioComponent = () => {
                     <li>
                         <a href='mailto:yasmine.alnajargmail.com' target='_blank' rel='noreferrer'>
                             <span className={classes.icon}>
-                                <IoMdMail   color='white' size={screenSize > 500 ? '1.7rem' : '1.5rem'}
+                                <IoMdMail   color='#EED3D9' size={screenSize > 500 ? '1.7rem' : '1.5rem'}
                                             onMouseOver={({target})=>{target.style.color="#8e44ad"; }} 
                                             onMouseOut={({target})=>{target.style.color="#EED3D9"; }}/>
                             </span>
@@ -75,7 +75,7 @@ const BioComponent = () => {
                     <li>
                         <a href='https://telegram.me/rose_an_sy' target='_blank' rel='noreferrer'>
                             <span className={classes.icon}>
-                                <FaGithub color='white' size={screenSize > 500 ? '1.7rem' : '1.5rem'}
+                                <FaGithub color='#EED3D9' size={screenSize > 500 ? '1.7rem' : '1.5rem'}
                                             onMouseOver={({target})=>{target.style.color="#8e44ad"; }} 
                                             onMouseOut={({target})=>{target.style.color="#EED3D9"; }}/>
                             </span>
@@ -84,7 +84,7 @@ const BioComponent = () => {
                     <li>
                         <a href='https://telegram.me/rose_an_sy' target='_blank' rel='noreferrer'>
                             <span className={classes.icon}>
-                                <FaLinkedin color='white' size={screenSize > 500 ? '1.6rem' : '1.4rem'}
+                                <FaLinkedin color='#EED3D9' size={screenSize > 500 ? '1.6rem' : '1.4rem'}
                                             onMouseOver={({target})=>{target.style.color="#8e44ad"; }} 
                                             onMouseOut={({target})=>{target.style.color="#EED3D9"; }}/>
                             </span>

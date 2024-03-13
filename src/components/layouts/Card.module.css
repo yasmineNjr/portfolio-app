@@ -3,7 +3,13 @@
     /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
     box-shadow: 0 0 10px #8e44ad; 
     border-radius: 14px;
-    background-color: #040D12;
+    background-color: rgb(4, 13, 18, 0.6);
+    /* rgb(53, 55, 75) */
+    /* rgb(34, 40, 49, 0.75) */
+    /* 040D12 */
+    /* 35374B */
+    /* #222831 */
     border: 1px solid #8e44ad; 
     /* #383838 */
+    /* opacity: 85%; */
   }

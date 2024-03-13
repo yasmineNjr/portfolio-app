@@ -4,14 +4,17 @@
     width: 90%;
     margin: auto;
     position: relative;
-    background-color: #040D12;
+    background-color: rgb(4, 13, 18, 0.85);
     /* #383838 */
+    /* 040D12 */
+    /* #222831 */
     color: #EED3D9;
     /* #ecf0f1 */
     border-radius: 14px;
     padding: 1rem;
     /* box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25); */
     box-shadow: 0 0 10px #8e44ad;
+    border: 1px solid #8e44ad; 
     /* a55eea */
     animation: summary-appear 1s ease-out forwards;
     font-size: medium;
@@ -76,7 +79,7 @@
     }
   
     to {
-      opacity: 1;
+      opacity: 85%;
       transform: translateY(0);
     }
   }
