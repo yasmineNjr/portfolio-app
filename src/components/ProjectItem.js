@@ -34,7 +34,6 @@ const ProjectItem = (props) => {
                             </div>
                         </div>
                     </div>
-                   
                 </Card>
             </section>
 }

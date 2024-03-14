@@ -21,7 +21,8 @@ const PROJECTS = [
         title : 'Emlak ',
         technics: ['ASP.Net', 'Sql Server DB', 'MVC'],
         description: 'A website created using ASP.NET with C# language and a SQL Server database. It showcases real estate and provides a comprehensive suite of services for sellers, buyers of residential properties, and tenants. The platform features an intuitive and simpliﬁed interface, enabling users to easily furnish detailed property descriptions and upload a set of pictures for each listing. Additionally, it streamlines communication between sellers and buyers. ',
-        url: 'https://drive.google.com/file/d/1HMbNDL8qdhykz9E9yeCZcUugpfiEThnR/view?usp=sharing'
+        url: ''
+        //https://drive.google.com/file/d/1HMbNDL8qdhykz9E9yeCZcUugpfiEThnR/view?usp=sharing
     },
     {
         id: '4',
