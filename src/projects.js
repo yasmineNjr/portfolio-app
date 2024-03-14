@@ -13,7 +13,7 @@ const PROJECTS = [
         image: '/images/SchedulerEase.png',
         title : 'SchedulerEase ',
         technics: ['ReactJs', 'LocalStorage', 'Socket.io'],
-        description: 'A meeting scheduler app developed using React and Socket.io to coordinate group meetings. Any user can define a meeting with possible dates and access meeting information when necessary. The application generates a code and associates this code with the relevant meeting. Any user can access meeting information via the shared code and see the most suitable times for everyone on the calendar. Any user can register to the meeting using the shared code and name and determine the most suitable time slots among possible dates. The user who creates the meeting chooses the best time for everyone by looking at calendar, Finally, the date specified for the meeting can be added to Google calendar. ',
+        description: 'A meeting scheduler app developed using React and Socket.io. Any user can define a meeting with possible dates and access meeting information when necessary. The application generates a code and associates this code with the relevant meeting. Any user can access meeting information via the shared code and see the most suitable times for everyone on the calendar. Any user can register to the meeting using the shared code and name and determine the most suitable time slots among possible dates. The user who creates the meeting chooses the best time for everyone by looking at calendar, Finally, the date specified for the meeting can be added to Google calendar. ',
         url: 'https://schedule-a-meeting-client.onrender.com ',
         urlText: 'SchedulerEase website link'
     },
