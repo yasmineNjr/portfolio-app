@@ -4,7 +4,7 @@
     width: 90%;
     margin: auto;
     position: relative;
-    background-color: rgb(4, 13, 18, 0.85);
+    background-color: rgb(4, 13, 18, 0.6);
     /* #383838 */
     /* 040D12 */
     /* #222831 */
@@ -74,12 +74,14 @@
 
   @keyframes summary-appear {
     from {
-      opacity: 0;
+      /* opacity: 0; */
+      background-color: rgb(4, 13, 18, 0);
       transform: translateY(3rem);
     }
   
     to {
-      opacity: 85%;
+      /* opacity: 70%; */
+      background-color: rgb(4, 13, 18, 0.6);
       transform: translateY(0);
     }
   }
